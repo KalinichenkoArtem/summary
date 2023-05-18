@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(231, 229, 224);
+}
+
+section {
+  margin: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.2;
+  color: black;
+}
+
+a {
+  font-family: "Lato", sans-serif;
+  color: #292627b9;
+}
+
+.contact-list {
+  padding: 15px;
+  list-style-type: none;
+  /* line-height: 20px; */
+}
+
+svg {
+  margin-right: 10px;
+}
+
+.img {
+  border-radius: 50%;
+}

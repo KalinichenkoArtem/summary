@@ -4,26 +4,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Summary</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
     <main>
-      <div>
+      <div class="container">
         <section class="left-section">
-          <img src="" alt="photo" />
+          <img
+            class="img"
+            src="./img/photo.jpg"
+            alt="photo"
+            width="200"
+            height="200"
+          />
           <h2>Contact Me</h2>
-          <ul>
+          <ul class="contact-list">
             <li>
-              <svg class="" width="20" height="20">
-                <use href=""></use>
-              </svg>
-              +38 066 009 72 67
+              <a href="tel:+380660097267">
+                <svg class="" width="20" height="20">
+                  <use href="./img/symbol-defs.svg#icon-phone"></use>
+                </svg>
+                +38 066 009 72 67
+              </a>
             </li>
             <li>
               <a class="" href="mailto:kalinichenko.as@ukr.net">
                 <svg class="" width="20" height="20">
-                  <use href=""></use>
+                  <use href="./img/symbol-defs.svg#icon-mail"></use>
                 </svg>
                 kalinichenko.as@ukr.net
               </a>
@@ -34,7 +49,7 @@
                 href="https://www.linkedin.com/in/artem-kalinichenko-38b30926a/"
               >
                 <svg class="" width="20" height="20">
-                  <use href=""></use>
+                  <use href="./img/symbol-defs.svg#icon-linkedin"></use>
                 </svg>
                 Linkedin
               </a>
@@ -42,7 +57,7 @@
             <li>
               <a class="" href="https://github.com/KalinichenkoArtem">
                 <svg class="" width="20" height="20">
-                  <use href=""></use>
+                  <use href="./img/symbol-defs.svg#icon-github"></use>
                 </svg>
                 GitHub
               </a>
@@ -50,7 +65,7 @@
             <li>
               <a class="" href="https://t.me/kalinichenkoas">
                 <svg class="" width="20" height="20">
-                  <use href=""></use>
+                  <use href="./img/symbol-defs.svg#icon-telegram"></use>
                 </svg>
                 @kalinichenkoas
               </a>
@@ -58,12 +73,12 @@
           </ul>
           <h2>Tech Skills</h2>
           <ul>
-            <li>CSS3</li>
             <li>HTML5</li>
+            <li>CSS3</li>
             <li>Sass</li>
             <li>JavaScript</li>
-            <li>React</li>
             <li>Node.js</li>
+            <li>React</li>
           </ul>
           <h2>Soft Skills</h2>
           <ul>
@@ -80,7 +95,7 @@
           </ul>
         </section>
         <section class="right-section">
-          <p>Artem Kalinichenko</p>
+          <p class="name">Artem Kalinichenko</p>
           <p>Junior Frontend Developer</p>
           <p>Summary</p>
           <h2>Project Experience</h2>
@@ -88,7 +103,6 @@
             <li>IceCream</li>
             <li>News</li>
             <li>React Project</li>
-            <li></li>
           </ul>
           <h2>Education</h2>
           <ul>
