@@ -1,12 +1,15 @@
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+main {
   background: linear-gradient(
     to bottom right,
     rgb(214, 209, 209),
     rgb(221, 214, 193)
   );
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 section {
