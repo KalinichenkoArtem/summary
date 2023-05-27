@@ -40,6 +40,10 @@ li {
   font-family: "Lato", sans-serif;
 }
 
+h3 {
+  margin: 10px 0;
+}
+
 a,
 p,
 li {
@@ -100,7 +104,7 @@ svg {
 }
 
 .name {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   font-size: 32px;
   font-weight: 700;
   color: black;
