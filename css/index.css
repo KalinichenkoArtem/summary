@@ -72,7 +72,10 @@ svg {
 
 .experience-list,
 .education-list,
-.project-experience-list,
+.project-experience-list {
+  width: 320px;
+}
+
 .summary-text {
   width: 400px;
 }
