@@ -1,6 +1,6 @@
 .container {
   display: flex;
-  width: 770px;
+  width: 800px;
   background: linear-gradient(
     to bottom right,
     rgb(214, 209, 209),
@@ -73,7 +73,7 @@ svg {
 .experience-list,
 .education-list,
 .project-experience-list {
-  width: 320px;
+  width: 400px;
 }
 
 .summary-text {
