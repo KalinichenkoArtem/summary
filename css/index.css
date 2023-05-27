@@ -10,7 +10,7 @@ section {
 
 p,
 a {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 a {
@@ -27,7 +27,6 @@ ul {
 }
 
 h2 {
-  margin: 15px 0;
   font-family: "Lato", sans-serif;
   font-weight: 700;
   font-size: 24px;
@@ -38,10 +37,6 @@ h3,
 p,
 li {
   font-family: "Lato", sans-serif;
-}
-
-h3 {
-  margin: 10px 0;
 }
 
 a,
@@ -60,7 +55,7 @@ svg {
 }
 
 .img {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   border-radius: 50%;
 }
 
@@ -104,7 +99,7 @@ svg {
 }
 
 .name {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   font-size: 32px;
   font-weight: 700;
   color: black;
