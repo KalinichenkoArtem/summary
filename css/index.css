@@ -1,3 +1,7 @@
+body {
+  background: linear-gradient(90deg, #e0f0e1, #c4e9ca, #a8c3d8);
+}
+
 .container {
   display: flex;
   width: 800px;
