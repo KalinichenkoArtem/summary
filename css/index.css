@@ -1,15 +1,12 @@
-main {
+.container {
+  display: flex;
+  width: 770px;
   background: linear-gradient(
     to bottom right,
     rgb(214, 209, 209),
     rgb(221, 214, 193)
   );
-}
-
-.container {
-  display: flex;
-  /* align-items: center; */
-  justify-content: center;
+  border: solid 1px red;
 }
 
 section {
@@ -63,7 +60,7 @@ svg {
 }
 
 .img {
-  margin-bottom: 50px;
+  margin-bottom: 15px;
   border-radius: 50%;
 }
 
@@ -95,11 +92,11 @@ svg {
 .education-item:nth-last-child(n + 2),
 .education-desc:nth-last-child(n + 2),
 .project-experience-item:nth-last-child(n + 2) {
-  margin-bottom: 8px;
+  margin-bottom: 5px;
 }
 
 .education-text {
-  margin-bottom: 8px;
+  margin-bottom: 5px;
 }
 
 .project-experience-list {
@@ -119,7 +116,7 @@ svg {
 }
 
 .project-experience-list p {
-  margin: 8px 0;
+  margin: 5px 0;
 }
 
 .project-link {
@@ -127,6 +124,6 @@ svg {
 }
 
 .experience-desc {
-  margin-top: 8px;
+  margin-top: 5px;
   font-weight: 700;
 }
