@@ -13,6 +13,10 @@ a {
   font-size: 14px;
 }
 
+a.link-contact-item {
+  font-size: 16px;
+}
+
 a {
   text-decoration: none;
 }
@@ -50,8 +54,8 @@ li {
 }
 
 .contact-list {
-  padding-left: 15px;
-  list-style-type: none;
+  /* padding-left: 15px; */
+  /* list-style-type: none; */
 }
 
 svg {
@@ -63,7 +67,6 @@ svg {
   border-radius: 50%;
 }
 
-.contact-item,
 .link-contact-item {
   display: flex;
   align-items: center;
@@ -92,6 +95,10 @@ svg {
 .education-desc:nth-last-child(n + 2),
 .project-experience-item:nth-last-child(n + 2) {
   margin-bottom: 5px;
+}
+
+.experience-item {
+  font-size: 14px;
 }
 
 .education-text {
