@@ -33,6 +33,10 @@ h2 {
   line-height: 1.2;
 }
 
+h2.summary-title {
+  margin: 10px 0;
+}
+
 h3,
 p,
 li {
