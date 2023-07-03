@@ -17,10 +17,6 @@ a.link-contact-item {
   font-size: 16px;
 }
 
-a {
-  /* text-decoration: none; */
-}
-
 p {
   margin: 0;
 }
@@ -51,11 +47,6 @@ a,
 p,
 li {
   color: rgb(44, 43, 43);
-}
-
-.contact-list {
-  /* padding-left: 15px; */
-  /* list-style-type: none; */
 }
 
 svg {
