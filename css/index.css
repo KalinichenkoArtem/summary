@@ -33,7 +33,8 @@ h2 {
   line-height: 1.2;
 }
 
-h2.summary-title {
+h2.summary-title,
+h2.work-experience {
   margin: 10px 0;
 }
 
